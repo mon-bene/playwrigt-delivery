@@ -1,9 +1,18 @@
-1. Check for error messages for login input
-2. Check for error messages for password input
-3. Check for incorrect credentials message and close pop up message
 
+## install dependencies
 
-selectors
+```npm ci```
+
+## execute all test
+
+```npx playwright test```
+
+Tests:
+
+1. Check for incorrect credentials message and close pop up message
+2. Check for error messages for login and password input
+
+Selectors:
 
 usernameField = data-name="username-input"
 passwordField = data-name="password-input"
